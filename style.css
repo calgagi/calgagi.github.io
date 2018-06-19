@@ -1,0 +1,21 @@
+body {
+  background-image: url("./images/background.png");
+}
+
+main {
+  font-family: "Inconsolata", "Monaco", "Consolas";
+  background-color: "rgba(255, 255, 255, 0)";
+  margin-top: 50px;
+}
+
+nav .navbar {
+  padding-bottom: 100%;
+}
+
+main .btn {
+  color: white;
+}
+
+main .btn:hover {
+
+}
