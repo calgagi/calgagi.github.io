@@ -5,14 +5,14 @@ body {
 main {
   font-family: "Inconsolata", "Monaco", "Consolas";
   background-color: "rgba(255, 255, 255, 0)";
-  margin-top: 50px;
-  padding-top: 15px;
+  margin-top: 40px;
 }
 
-.navbar-brand, .navbar-nav li a {
+.navbar .navbar-nav {
   padding-top: 0px;
-  height: 30px;
-  line-height: 30px;
+  height: 50px;
+  line-height: 500px;
+  padding-left: 20px;
 }
 
 .navbar {
@@ -145,8 +145,15 @@ main {
 main .btn {
   color: white;
   padding-top: 0px;
+  text-decoration: none;
 }
 
 main .btn:hover {
+  color: lightblue;
+  font-size: 1.2rem;
+}
 
+.btn:active {
+  box-shadow: none;
+  text-shadow: none;
 }
