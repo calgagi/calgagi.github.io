@@ -1,0 +1,8 @@
+Welcome to my personal website!
+
+I am currently a third year student at Oregon State University majoring in Computer Science with the Systems option.
+
+Some special CS interests of mine include UI/UX development, database management, and algorithm design. Feel free to check out
+the links on the left for more info.
+
+Outside of CS, I really like to read awesome psychology books, run long distances, cycle with friends, and experiment with fashion.

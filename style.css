@@ -150,7 +150,6 @@ main .btn {
 
 main .btn:hover {
   color: lightblue;
-  font-size: 1.2rem;
 }
 
 .btn:active {
