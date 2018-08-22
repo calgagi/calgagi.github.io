@@ -4,13 +4,8 @@ body {
   background-repeat:   no-repeat;
   background-position: center center;
   font-family: "Courier New";
-  color: grey;
+  color: black;
   font-weight: bold;
-  font-size: 32pt;
-}
-
-main {
-  margin-top: 40px;
 }
 
 .navbar .navbar-nav {
@@ -149,7 +144,15 @@ main {
 
 main .btn {
   padding-top: 0px;
+  margin-top: 0px;
   text-decoration: none;
+  color: black;
+}
+
+.btn:after, .btn:before, .btn.active {
+  border: none !important;
+  box-sizing: 0px !important;
+  box-shadow: 0px !important;
 }
 
 main .btn:hover {
@@ -159,4 +162,6 @@ main .btn:hover {
 .btn:active {
   box-shadow: none;
   text-shadow: none;
+  text-decoration: none;
+  outline: none;
 }
