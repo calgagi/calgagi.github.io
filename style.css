@@ -4,7 +4,9 @@ body {
   background-repeat:   no-repeat;
   background-position: center center;
   font-family: "Courier New";
-  color: white;
+  color: grey;
+  font-weight: bold;
+  font-size: 32pt;
 }
 
 main {
@@ -146,13 +148,12 @@ main {
 }
 
 main .btn {
-  color: white;
   padding-top: 0px;
   text-decoration: none;
 }
 
 main .btn:hover {
-  color: lightblue;
+  color: red;
 }
 
 .btn:active {
