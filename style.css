@@ -6,8 +6,8 @@ body {
   font-family: "Courier New";
   color: black;
   font-weight: bold;
+  width: 98%;
 }
-
 .navbar .navbar-nav {
   padding-top: 0px;
   height: 50px;
@@ -142,7 +142,7 @@ body {
   background-color: #436564;
 }
 
-main .btn {
+.btn {
   padding-top: 0px;
   margin-top: 0px;
   text-decoration: none;
@@ -155,7 +155,7 @@ main .btn {
   box-shadow: 0px !important;
 }
 
-main .btn:hover {
+.btn:hover {
   color: red;
 }
 
