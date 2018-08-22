@@ -1,10 +1,13 @@
 body {
-  background-image: url("./images/background.png");
+  background-image: url("./images/background.jpg");
+  background-size:    fill;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;
+  font-family: "Courier New";
+  color: white;
 }
 
 main {
-  font-family: "Inconsolata", "Monaco", "Consolas";
-  background-color: "rgba(255, 255, 255, 0)";
   margin-top: 40px;
 }
 
