@@ -1,3 +1,3 @@
-calgag.github.io/calvingagliano
+https://calgag.github.io/calvingagliano
 
 Personal website project.
