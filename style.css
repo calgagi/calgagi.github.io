@@ -1,14 +1,22 @@
-body {
+html, body {
   background-image: url("./images/background.jpg");
   background-size:    inherit;                      /* <------ */
   background-repeat:   no-repeat;
   background-position: center center;
+  background-attachment: fixed;
   font-family: "Courier New";
   color: black;
   font-weight: bold;
   margin: 0;
   padding: 0;
   display: block;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#scrollblink {
+    position: absolute;
+    bottom: 10px;
 }
 
 .btn {
