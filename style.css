@@ -1,38 +1,34 @@
-.btn {
-    padding: 0;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    color: black;
-}
-
 html, body {
     height: 100%;
+    width: 100%;
 }
 
 html {
     display: table;
     margin: auto;
-}
-
-.move-up {
-    margin-bottom: 300px;
-}
+    }
 
 body {
     display: table-cell;
     background-image: url("./images/background.jpg");
-    background-size: inherit;                      
-    background-repeat: no-repeat;
-    background-position: center center;
-    font-family: "Courier New";
-    color: black;
     vertical-align: middle;
-}
-.btn:hover {
-    color: red;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 }
 
-.btn:visited {
-    border: none;
+h3 {
+    color: white;
 }
+
+.row {
+    margin: 10px;
+}
+
+.img-fluid {
+    width: 30px;
+    height: 30px;
+}
+
