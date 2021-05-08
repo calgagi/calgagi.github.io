@@ -10,13 +10,12 @@ html {
 
 body {
     display: table-cell;
-    background-image: url("./images/background.jpg");
+    background-image: url("./images/nord_bg.jpg");
     vertical-align: middle;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
 }
 
 h3 {
